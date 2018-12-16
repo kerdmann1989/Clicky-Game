@@ -3,9 +3,9 @@ import "./FriendCard.css";
 
 const FriendCard = props => (
 
-  <div className="card" onClick={props.handleClick}>
+  <div className="card">
     <div className="img-container" >
-      <img alt={props.name} src={props.image}/>
+      <img alt={props.name} id={props.id} src={props.image} onClick={props.handleClick}/>
     </div>
   </div>
 
