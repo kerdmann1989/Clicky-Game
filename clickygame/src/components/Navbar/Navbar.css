@@ -1,0 +1,38 @@
+.navbar {
+    background: #450569;
+    /* height: 60px;
+    width: 100%; */
+    color: white;
+    font-size: 3rem;
+}
+
+.currentScore {
+    color: white; 
+    margin-left: 100px;
+    float: right;
+}
+
+.navbar-text {
+    text-align: center;
+
+}
+
+.highScore {
+    float: right;
+    margin-right: 100px;
+}
+
+title {
+    color: white;
+}
+  
+.navbar a {
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 5px;
+    line-height: 3;
+}
+
+
+  

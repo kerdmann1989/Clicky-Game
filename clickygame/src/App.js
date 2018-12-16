@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
+import Navbar from "./components/Navbar";
+
+
 // import friends from "./friends.json";
 import "./App.css";
 
@@ -258,11 +261,13 @@ class App extends Component {
     return (
       
       <Wrapper>
-        <Title>Villains!</Title>
-        <p>{this.state.rightWrong}</p>
-        <p>{this.state.currentScore}</p>
-        <p>{this.state.highScore}</p>
-        
+      <Navbar 
+      currentScore={this.state.currentScore}
+      highScore={this.state.highScore}
+   />
+           <Title>Villain Clicky Game           <h2>Click on each character...but only once or you lose!</h2>
+</Title>
+
         {this.state.friends.map(friend => (
           <FriendCard
             handleClick={this.handleClick}
@@ -273,6 +278,7 @@ class App extends Component {
             name={friend.name}
             image={friend.image}
           />
+         
         ))}
       </Wrapper>
     );
