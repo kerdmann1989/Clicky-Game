@@ -138,7 +138,7 @@ class App extends Component {
             rightWrong: ""
           });
 
-          if (newScore === 3) {
+          if (newScore === 12) {
             alert("You Won")
             // this.setState({ rightWrong: "You Win!" });
             this.setState({currentScore: 0});
