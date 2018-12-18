@@ -139,8 +139,7 @@ class App extends Component {
           });
 
           if (newScore === 12) {
-            alert("You Won")
-            // this.setState({ rightWrong: "You Win!" });
+            this.setState({rightWrong: "YOU WON! Click a picture to play again."})
             this.setState({currentScore: 0});
             this.setState({ highScore: newScore })
           }
@@ -245,10 +244,11 @@ class App extends Component {
         <Navbar
           currentScore={this.state.currentScore}
           highScore={this.state.highScore}
-          rightWrong={this.state.rightWrong}
         />
         <Title>Villain Clicky Game
-          <h2>Click on each character...but only once or you lose!</h2>
+          <h3>Click on each character...but only once or you lose!</h3>
+          <span className="greeting">{this.state.rightWrong}</span>
+
         </Title>
 
         {this.state.friends.map(friend => (

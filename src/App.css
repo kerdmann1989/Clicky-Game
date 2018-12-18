@@ -3,3 +3,10 @@
   text-align: center;
   margin-bottom: 50px;
 }
+
+.greeting {
+  color: green;
+  font-size: 45px;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+

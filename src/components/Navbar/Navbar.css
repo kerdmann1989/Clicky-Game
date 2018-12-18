@@ -1,20 +1,20 @@
 .navbar {
     background: #450569;
-    /* height: 60px;
-    width: 100%; */
+    width: 100%;
     color: white;
     font-size: 3rem;
+    padding: 20px;
 }
 
-.currentScore {
+/* .currentScore {
     color: white; 
     margin-left: 100px;
     float: right;
-}
+} */
 
 .navbar-text {
-    text-align: center;
-
+font-family: 'ZCOOL XiaoWei', serif;
+font-size: 30px;
 }
 
 .highScore {
@@ -34,5 +34,6 @@ title {
     line-height: 3;
 }
 
-
-  
+.container-fluid-nav div{
+    /* display: flex; */
+justify-content: space-around;}

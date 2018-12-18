@@ -1,5 +1,5 @@
 .card {
-  border: 4px rgb(99, 99, 99) solid;
+  border: 4px #450569 solid;
   background: #fff;
   border-radius: 2px;
   height: 150px;
@@ -30,29 +30,3 @@
 .card:active {
   transform: translate(1px, 1px);
 }
-/* .card > .content {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 15px;
-} */
-
-/* .card > .content > ul {
-  list-style-type: none;
-}
-
-.card > .content > ul > li {
-  margin-top: 18px;
-}
-
-.card > .remove {
-  color: #ff1744;
-  font-size: 48px;
-  position: absolute;
-  top: -20px;
-  right: 5px;
-  cursor: pointer;
-}
-
-.card > .remove:hover {
-  color: #d50000;
-} */

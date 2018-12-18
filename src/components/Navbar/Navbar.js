@@ -7,11 +7,11 @@ import "./Navbar.css";
 
 const Navbar = (props) => (
   
-  <div class="container">
-    <nav class="navbar navbar-light bg-light">
-      <span class="center navbar-text">
-        Score: {props.currentScore}  |  High Score: {props.highScore}  |  {props.rightWrong} 
-      </span>
+  <div class="container-fluid-nav">
+    <nav class="navbar navbar-light bg-light text-center">
+      <div class="navbar-text">
+        Score: {props.currentScore}&nbsp;&nbsp;|&nbsp;&nbsp;High Score: {props.highScore} 
+      </div>
     </nav>
 </div>
 
